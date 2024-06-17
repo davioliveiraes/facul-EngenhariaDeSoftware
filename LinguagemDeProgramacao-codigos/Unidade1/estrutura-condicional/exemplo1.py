@@ -1,4 +1,14 @@
 # Estrutura condicional Simples
+# Exemplo 1:
+a = 5
+b = 10
+
+if a < b:
+    print("a é menor do que b")
+    r = a + b
+    print(r)
+
+# Exemplo 2
 nota1 = 7
 nota2 = 9
 
