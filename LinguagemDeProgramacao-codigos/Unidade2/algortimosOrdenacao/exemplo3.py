@@ -15,7 +15,7 @@ print(selection_sort_minsort(lista))
 # Selection Sort - Maxsort - Ordenação, pegando o valor máximo
 
 def selection_sort_maxsort(lista):
-   for i in range(len(lista)):
+   for i in range(len(lista)-1, 0, -1):
       max_index = 0
       for j in range(i+1):
          if lista[max_index] < lista[j]:
