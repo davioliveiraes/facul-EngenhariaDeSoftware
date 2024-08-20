@@ -1,5 +1,0 @@
-nomes = "Harvey Specter Mike Ross Louis Litt Jessica Person Rachel Zane Dona Paulsen".split()
-print("Harvey" in nomes)
-print("Mike" in nomes)
-print("Louis" in nomes)
-print("Alex" in nomes)
