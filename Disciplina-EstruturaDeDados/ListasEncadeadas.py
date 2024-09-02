@@ -37,17 +37,11 @@ class ListaEncadeada:
          # print(navegar.data)
          # Remove o item se ele for encontrado
 
-   def busca(lista, valor):
+   def buscar(lista, valor):
       navegar = lista.head
       while navegar and navegar.data != valor:
          navegar = navegar.next
       return navegar
-
-'''
-
-   Agora vamos ver como utilizar este código:
-
-'''
 
 lista = ListaEncadeada()
 lista.insere(1)
@@ -59,8 +53,9 @@ print(f"Lista após inserções: {lista}")
 lista.remove(2)
 print(f"Lista após remover o valor 2: {lista}")
 
-item_encontrado = lista.busca(3)
+item_encontrado = lista.buscar(3)
 if item_encontrado:
    print(f"Item encontrado: {item_encontrado}")
 else:
    print("Item não encontrado")
+
