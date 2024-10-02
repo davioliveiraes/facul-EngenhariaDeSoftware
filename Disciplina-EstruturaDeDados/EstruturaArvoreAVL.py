@@ -118,3 +118,4 @@ class VerticeAVL:
       self.atualizar_altura()
       nova_raiz.atualizar_altura()
       return nova_raiz
+      
