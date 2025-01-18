@@ -17,3 +17,4 @@ print(f"Saldo atual: R${conta.consultar_saldo():,.2f}")
 
 conta.depositar(50.0)
 print(f"Saldo atual: R${conta.consultar_saldo():,.2f}")
+ 
